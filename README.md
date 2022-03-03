@@ -37,9 +37,9 @@ To evaluate the prediction performance of NetBCE, the 5-fold CV was performed on
 ![image](https://github.com/BioDataStudy/NetBCE/blob/main/models/github_3.jpg)
 
 # Interpretability
-To decipher the capability of the hierarchical representation and learning, we visualized the m5U and non-m5U sites using UMAP (Uniform Manifold Approximation and Projection) method based on the feature representations uncovered at different network layers. the learned features turn into more and more discriminative along the layer hierarchy, with m5U and non-m5U sites mixed at the input layer without clear boundary, culminating with a clear separation in the output layer.
+To elucidate the capability of hierarchical representation by NetBCE, we visualized the epitopes and non-epitopes using UMAP (Uniform Manifold Approximation and Projection) method based on the feature representation at varied network layers. We found the feature representation came to be more discriminative along the network layer hierarchy. More specifically, the feature representations for epitopes and non-epitopes sites were mixed at the input layer. As the model continues to train, epitopes and non-epitopes tend to occur in very distinct regions with efficient feature representation. 
 
-![image](https://github.com/BioDataStudy/5mC-Finder/blob/99a4038ca69585ac5e23dae074a9f296d66850d7/umap/Uamp_testing.png)
+![image](https://github.com/BioDataStudy/NetBCE/blob/main/Interpretability/github_4.jpg)
 
 # Motifs
 The kernels in the first convolutional layer distinguish important weight matrices over the input sequences to recognize significant patterns. Therefore, we decoded all filters in the convolutional layer of 5mU-Finder and converted them into motifs. As a result, a total of 135 informative motifs were characterized, and several novel RNA mo-tifs with the consensus sequence were discovered, such as CxGGGAxC and GGGxUCG. The clustering analysis of the informative motifs re-vealed their enrichments and higher distributions in positive instances .
