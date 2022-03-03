@@ -58,4 +58,4 @@ Based on to the model constructed in this study, we developed a software to prov
 ![image](https://github.com/BioDataStudy/NetBCE/blob/main/prediction/github_5.jpg)
 
 # Citation
-Please cite the following paper for using: Deciphering the location and consensus patterns of RNA 5-methyluridine sites by deep learning. Submission 2021.
+Please cite the following paper for using: NetBCE Enables Accurate Prediction of Linear B-Cell Epitopes with Interpretable Deep Neural Network. Submission 2022.
