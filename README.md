@@ -53,9 +53,9 @@ python predict.py --help
 ```
 
 # NetBCE analysis report
-To elucidate the capability of hierarchical representation by NetBCE, we visualized the epitopes and non-epitopes using UMAP (Uniform Manifold Approximation and Projection) method based on the feature representation at varied network layers. We found the feature representation came to be more discriminative along the network layer hierarchy. More specifically, the feature representations for epitopes and non-epitopes sites were mixed at the input layer. As the model continues to train, epitopes and non-epitopes tend to occur in very distinct regions with efficient feature representation. 
+Based on to the model constructed in this study, we developed a software to provide function for linear B-cell epitope prediction. The software of NetBCE is available at https://github.com/BioDataStudy/NetBCE. NetBCE provided and visualized the prediction results in an interactive html file using the Python, PHP, JavaScript and Bootstrap package with an easily readable and interpretable manner. Users can input the candidate proteins in a FASTA format. In addition, user needs to select one or more peptide lengths so that the software can construct a library of candidate epitope peptides. For an example output page in Figure 4G, our software provides a probability score for each candidate peptide, and its value ranges from 0 to 1. All prediction results can be copied, printed and downloaded in 3 formats, including “CVS”, “Excel” and “PDF”. Our software additionally provided two an interactive html plot showing the distribution of lengths and scores for all candidate peptides. 
 
-![image](https://github.com/BioDataStudy/NetBCE/blob/main/Interpretability/github_4.jpg)
+![image](https://github.com/BioDataStudy/NetBCE/blob/main/prediction/github_5.jpg)
 
 # Citation
 Please cite the following paper for using: Deciphering the location and consensus patterns of RNA 5-methyluridine sites by deep learning. Submission 2021.
