@@ -29,7 +29,7 @@ To establish a reliable model, an experimentally well-characterized dataset was 
 # NetBCE construction
 A ten-layer deep learning framework, named NetBCE, was implemented to predict B cell epitopes. The epitope sequences were encoded and taken as input. Then, convolution-pooling module was followed to make feature extraction and representation. LSTM layer was added for retaining features from a long duration facilitate the model to catch the combinations or dependencies among residues at different positions. Lastly, an attention layer was joined to link the LSTM layer and the output layer.
 
-![image](https://github.com/BioDataStudy/NetBCE/blob/main/data/github_2.jpg)
+![image](https://github.com/BioDataStudy/NetBCE/blob/main/models/github_2.jpg)
 
 # Performance
 NetBCE outperformed conventional machine learning methods by increasing the area under curve (AUC) value by a range of 8.77-21.58% in same training dataset. Moreover, we compared NetBCE with other existing tools based on the curated independent dataset. NetBCE had high performance with the AUC values of 0.8438 on the independent dataset, and achieved a ≥ 8.84% improvement of AUC value for the B cell epitope prediction compared to other tools.
