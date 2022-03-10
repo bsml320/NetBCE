@@ -47,7 +47,7 @@ To elucidate the capability of hierarchical representation by NetBCE, we visuali
 Please cd to the NetBCE/prediction/ folder which contains predict.py.
 Example: 
 ```
-python predict.py -f ../testdata/test.fasta -o ../testdata/test_result.txt
+python NetBCE_prediction.py -f ../testdata/test.fasta -o ../result/test_result
 ```
 For details of other parameters, run:
 ```
