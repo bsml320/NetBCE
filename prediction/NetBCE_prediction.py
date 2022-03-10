@@ -16,8 +16,7 @@ os.environ['CUDA_VISIBLE_DEVICES']="-1"
 
 # %%
 #binding model
-# main_dir = "./models"
-model_dict = '/collab2/hxu6/B_cell_epitope/CV/local_onehot'
+main_dir = "./models"
 def import_model(main_dir):
     models = []
     json_f = open(main_dir + "/model.json", 'r')
@@ -158,9 +157,6 @@ def convertSampleToProbMatr_2(sample_peptides):
 
 # %%
 def preiction(fastafile, output_folder, peptide_lengths):
-    # model_dict = '/collab2/hxu6/B_cell_epitope/CV/local_onehot'
-    # peptide_lengths = [8,9,10,11,12,13,14,15,16]
-    # fastafile = '/collab2/hxu6/B_cell_epitope/data/seq/test.fasta'
     sequences = read_fasta(fastafile)
     sample_peptides, sample_peptides_position = sample_fasta_peptides(sequences, peptide_lengths)
     sample_peptides_matr = convertSampleToProbMatr_2(sample_peptides)
@@ -179,7 +175,6 @@ def preiction(fastafile, output_folder, peptide_lengths):
                                 ';'.join(pos).replace('_', ':'),
                                 str(epi_scores[i])])
 
-    # output_folder = '/collab2/hxu6/B_cell_epitope/prediction'
     if not os.path.isdir(output_folder):
         os.makedirs(output_folder)
     with open(output_folder + '/NetBCE_predictions.tsv', 'w') as f:
