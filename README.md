@@ -17,6 +17,8 @@ pip install pandas
 pip install numpy
 pip install scipy
 pip install h5py
+pip install plotly
+pip install dominate
 pip install -v keras==2.3.1
 pip install -v tensorflow==1.15
 ```
