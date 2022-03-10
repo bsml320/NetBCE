@@ -51,7 +51,7 @@ python NetBCE_prediction.py -f ../testdata/test.fasta -o ../result/test_result
 ```
 For details of other parameters, run:
 ```
-python predict.py --help
+python NetBCE_prediction.py --help
 ```
 
 # NetBCE analysis report
