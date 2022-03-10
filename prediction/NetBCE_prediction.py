@@ -206,7 +206,7 @@ def get_plotlyjs():
 
 def lab_logo():
     lab_logo = base64.b64encode(
-        open(str('/collab2/hxu6/B_cell_epitope/html/logo.png'), 'rb').read()).decode()
+        open(str('https://github.com/BioDataStudy/NetBCE/blob/main/logo/logo.png'), 'rb').read()).decode()
     return img(src=f'data:image/jpg;base64,{lab_logo}', className='img-fluid',
                 style="max-width:100%; max-height:100%; margin-left: 10px;"
                         "margin-bottom: 8px")  # can add opacity: 50% to style if desired
