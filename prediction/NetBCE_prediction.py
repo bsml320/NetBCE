@@ -16,7 +16,7 @@ os.environ['CUDA_VISIBLE_DEVICES']="-1"
 
 # %%
 #binding model
-main_dir = "./models"
+main_dir = "../models"
 def import_model(main_dir):
     models = []
     json_f = open(main_dir + "/model.json", 'r')
