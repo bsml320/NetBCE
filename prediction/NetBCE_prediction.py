@@ -160,7 +160,7 @@ def preiction(fastafile, output_folder, peptide_lengths):
     sequences = read_fasta(fastafile)
     sample_peptides, sample_peptides_position = sample_fasta_peptides(sequences, peptide_lengths)
     sample_peptides_matr = convertSampleToProbMatr_2(sample_peptides)
-    model_ligand = import_model(model_dict)
+    model_ligand = import_model(main_dir)
 
     all_epi_scores = []
     for seq in sample_peptides_matr.keys():
