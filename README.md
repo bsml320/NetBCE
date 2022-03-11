@@ -6,7 +6,7 @@ Activated B-lymphocytes (B cells) produce antibodies that bind with specific ant
 # Installation
 Download NetBCE by
 ```
-git clone https://github.com/BioDataStudy/NetBCE
+git clone https://github.com/bsml320/NetBCE
 ```
 Installation has been tested in Linux with Python 3.7.
 Since the package is written in python 3x, python3x with the pip tool must be installed.
@@ -55,7 +55,7 @@ python NetBCE_prediction.py --help
 ```
 
 # NetBCE analysis report
-Based on to the model constructed in this study, we developed a software to provide function for linear B-cell epitope prediction. The software of NetBCE is available at https://github.com/BioDataStudy/NetBCE. NetBCE provided and visualized the prediction results in an interactive html file using the Python, PHP, JavaScript and Bootstrap package with an easily readable and interpretable manner. Users can input the candidate proteins in a FASTA format. In addition, user needs to select one or more peptide lengths so that the software can construct a library of candidate epitope peptides. For an example output page, our software provides a probability score for each candidate peptide, and its value ranges from 0 to 1. All prediction results can be copied, printed and downloaded in 3 formats, including “CVS”, “Excel” and “PDF”. Our software additionally provided two an interactive html plot showing the distribution of lengths and scores for all candidate peptides. 
+Based on to the model constructed in this study, we developed a software to provide function for linear B-cell epitope prediction. The software of NetBCE is available at https://github.com/bsml320/NetBCE. NetBCE provided and visualized the prediction results in an interactive html file using the Python, PHP, JavaScript and Bootstrap package with an easily readable and interpretable manner. Users can input the candidate proteins in a FASTA format. In addition, user needs to select one or more peptide lengths so that the software can construct a library of candidate epitope peptides. For an example output page, our software provides a probability score for each candidate peptide, and its value ranges from 0 to 1. All prediction results can be copied, printed and downloaded in 3 formats, including “CVS”, “Excel” and “PDF”. Our software additionally provided two an interactive html plot showing the distribution of lengths and scores for all candidate peptides. 
 
 ![image](https://github.com/BioDataStudy/NetBCE/blob/main/prediction/github_5.jpg)
 
