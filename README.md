@@ -10,7 +10,7 @@ git clone https://github.com/bsml320/NetBCE
 ```
 Installation has been tested in Linux server, CentOS Linux release 7.8.2003 (Core), with Python 3.7.
 Since the package is written in python 3x, python3x with the pip tool must be installed.
-NetBCE uses the following dependencies: numpy, scipy, pandas, h5py, keras version=2.3.1, tensorflow=1.15. You can install these packages by the following commands:
+NetBCE uses the following dependencies: numpy, scipy, pandas, h5py, keras version=2.3.1, tensorflow=1.15. We highly recommend that users leave a message under the NetBCE issue interface (https://github.com/bsml320/NetBCE/issues) when encountering any installation and running problems. We will deal with it in time. You can install these packages by the following commands:
 ```
 conda create -n NetBCE python=3.7
 pip install pandas
