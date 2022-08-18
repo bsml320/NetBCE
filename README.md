@@ -8,7 +8,7 @@ Download NetBCE by
 ```
 git clone https://github.com/bsml320/NetBCE
 ```
-Installation has been tested in Linux with Python 3.7.
+Installation has been tested in Linux server (CentOS Linux release 7.8.2003 (Core)) with Python 3.7.
 Since the package is written in python 3x, python3x with the pip tool must be installed.
 NetBCE uses the following dependencies: numpy, scipy, pandas, h5py, keras version=2.3.1, tensorflow=1.15. You can install these packages by the following commands:
 ```
