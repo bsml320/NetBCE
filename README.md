@@ -62,4 +62,4 @@ Based on to the model constructed in this study, we developed a software to prov
 ![image](https://github.com/BioDataStudy/NetBCE/blob/main/prediction/github_5.jpg)
 
 # Citation
-Please cite the following paper for using: NetBCE Enables Accurate Prediction of Linear B-Cell Epitopes with Interpretable Deep Neural Network. Submission 2022.
+Please cite the following paper for using: Xu H, Zhao Z. NetBCE: An Interpretable Deep Neural Network for Accurate Prediction of Linear B-cell Epitopes. Genomics Proteomics Bioinformatics. 2022 Oct;20(5):1002-1012. doi: 10.1016/j.gpb.2022.11.009.
