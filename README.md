@@ -16,11 +16,12 @@ conda create -n NetBCE python=3.7
 pip install pandas
 pip install numpy
 pip install scipy
-pip install h5py
 pip install plotly
 pip install dominate
 pip install -v keras==2.3.1
 pip install -v tensorflow==1.15
+pip install protobuf==3.20
+pip install h5py==2.10.0
 ```
 
 # Data collection and processing
